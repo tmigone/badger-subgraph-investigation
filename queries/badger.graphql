@@ -1,0 +1,29 @@
+query BadgerVaults {
+  subgraphs (where: { displayName: "badger-vaults" }) {
+    id
+    displayName
+    versions {
+      id
+      createdAt
+      label
+      subgraphDeployment {
+        id
+      }
+    }
+  }
+}
+
+query BadgerTokens {
+  subgraphs (where: { displayName: "badger-tokens" }) {
+    id
+    displayName
+    versions {
+      id
+      createdAt
+      label
+      subgraphDeployment {
+        id
+      }
+    }
+  }
+}

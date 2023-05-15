@@ -1,0 +1,13 @@
+# .graphclientrc.yml
+sources:
+  - name: graph-network-mainnet
+    handler:
+      graphql:
+        endpoint: https://api.thegraph.com/subgraphs/name/graphprotocol/graph-network-mainnet
+
+documents:
+  - queries/badger.graphql
+
+
+
+ 

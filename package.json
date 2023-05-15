@@ -1,0 +1,16 @@
+{
+  "name": "badger-subgraph-investigation",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/tmigone/badger-subgraph-investigation",
+  "author": "Tomás Migone <tomasmigone@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@graphprotocol/client-cli": "^2.2.22",
+    "bs58": "^5.0.0",
+    "cids": "^1.1.9",
+    "graphql": "^16.6.0",
+    "multiformats": "^11.0.2",
+    "multihashes": "^4.0.3"
+  }
+}
